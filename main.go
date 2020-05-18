@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	mqtt "github.com/eclipse/paho.mqtt.golang"
+	mqtt "github.com/aulwardana/paho.mqtt.golang"
 )
 
 func connect(clientId string, uri *url.URL) mqtt.Client {
